@@ -30,6 +30,8 @@ $url_9: url(./images/color/color-2/price-bg.png);
 $url_10: url(./images/color/color-2/Homev1.png);
 $url_11: url(./images/color/color-2/Testimonial.png);
 $url_12: url(./images/color/color-2/contact.png);
+$url_hex1: url(./images/color/color-2/contact.png);
+$url_hex2: url(./images/color/color-2/contact.png);
 
 .caption-img {
   filter: hue-rotate(15deg);
@@ -45,17 +47,19 @@ h1 {
 
 .price-type {
   background-image: $url_9;
+
   h2 {
     color: $color_cyan_aqua;
   }
 }
 
 .home {
-  background-image: $url_0;
+  // background-image: $url_0;
 }
 
 .home-two {
   background-image: $url_1;
+
   .slide-cap-desc {
     color: $seashell;
   }
@@ -69,6 +73,7 @@ h1 {
   .home-two .slide-cap-desc {
     color: $white !important;
   }
+
   .navbar-nav .dropdown-menu .nav-link:hover {
     color: $color_cyan_aqua !important;
   }
@@ -77,13 +82,16 @@ h1 {
 .color-picker {
   .settings-header {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
+
     h3 {
       color: $white !important;
     }
   }
+
   .section {
     border: 1px solid $color_cyan_aqua;
   }
+
   a.handle {
     border: 1px solid $color_cyan_aqua;
     background: $color_cyan_aqua;
@@ -112,7 +120,7 @@ h1 {
 }
 
 .feature {
-  background-image: $url_4;
+  // background-image: $url_4;
 }
 
 .screenshot {
@@ -125,8 +133,10 @@ h1 {
 
 .team-block {
   background-image: $url_7;
+
   .team-social li a {
     border: 1px solid $color_cyan_aqua;
+
     &:hover {
       background-color: $color_cyan_aqua;
       border: 1px solid $color_cyan_aqua;
@@ -268,6 +278,7 @@ h1 {
 
 .btn-custom.theme-color {
   background-image: linear-gradient(to right, $color_picton_blue, $color_bright_turquoise, $color_scooter, $color_picton_blue);
+
   &:hover {
     background-position: 100% 0;
   }
@@ -278,13 +289,16 @@ h1 {
     span {
       background: $color_cyan_aqua !important;
     }
+
     &.active {
       border: 1px solid $color_cyan_aqua;
+
       span {
         background: $color_cyan_aqua !important;
       }
     }
   }
+
   &:hover a.active span {
     background: $color_cyan_aqua !important;
   }
@@ -295,10 +309,12 @@ h1 {
     span {
       background: $color_cyan_aqua !important;
     }
+
     &.active span {
       background: $color_cyan_aqua !important;
     }
   }
+
   &:hover a.active span {
     background: $color_cyan_aqua !important;
   }
@@ -318,6 +334,7 @@ h1 {
       }
     }
   }
+
   &.darkHeader {
     .navbar-nav {
       .nav-link {
@@ -334,6 +351,7 @@ h1 {
     &:hover {
       color: $color_cyan_aqua !important;
     }
+
     &:focus {
       color: $color_cyan_aqua !important;
     }
@@ -353,6 +371,7 @@ h1 {
   span {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
   }
+
   &.active span {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
   }
@@ -362,6 +381,7 @@ h1 {
   span {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
   }
+
   &.active span {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
   }
@@ -371,6 +391,7 @@ h1 {
   span {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%) !important;
   }
+
   &.active span {
     background: linear-gradient(to bottom, $color_cyan_aqua 0, $color_picton_blue 99%);
   }
@@ -383,6 +404,7 @@ h1 {
 .blog-pagin a.page-link {
   color: $color_cyan_aqua;
   border: 1px solid $gray;
+
   &:hover {
     background-color: $color_picton_blue;
   }
@@ -407,6 +429,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
   .home-two,
   .home-three {
     background-color: $color_picton_blue;
@@ -439,6 +462,7 @@ h1 {
         color: $color_bright_turquoise;
       }
     }
+
     &.dropdown {
       .dropdown-menu {
         .nav-item {
@@ -446,6 +470,7 @@ h1 {
             &.active {
               color: $color_bright_turquoise !important;
             }
+
             &:hover {
               color: $color_bright_turquoise !important;
               transition: all 0.3s ease;
@@ -455,6 +480,7 @@ h1 {
       }
     }
   }
+
   /*Dropdown css*/
   &.darkHeader {
     .dropdown-menu .nav-item {
@@ -465,6 +491,7 @@ h1 {
       }
     }
   }
+
   /*dropdown css end*/
   .navbar-nav {
     .active {
