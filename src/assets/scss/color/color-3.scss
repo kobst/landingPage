@@ -45,6 +45,7 @@ h1 {
 
 .price-type {
   background-image: $url_3_9;
+
   h2 {
     color: $color_caribbean_green;
   }
@@ -56,6 +57,7 @@ h1 {
 
 .home-two {
   background-image: $url_3_3_1;
+
   .slide-cap-desc {
     color: $seashell;
   }
@@ -75,6 +77,7 @@ h1 {
       }
     }
   }
+
   &.darkHeader {
     .navbar-nav {
       .nav-link {
@@ -84,6 +87,7 @@ h1 {
       }
     }
   }
+
   &.darkHeader .navbar-nav .nav-item.dropdown .dropdown-menu .nav-link:hover {
     color: $color_caribbean_green;
   }
@@ -110,7 +114,7 @@ h1 {
 }
 
 .feature {
-  background-image: $url_3_4;
+  // background-image: $url_3_4;
 }
 
 .screenshot {
@@ -123,8 +127,10 @@ h1 {
 
 .team-block {
   background-image: $url_3_7;
+
   .team-social li a {
     border: 1px solid $color_caribbean_green;
+
     &:hover {
       background-color: $color_caribbean_green;
       border: 1px solid $color_caribbean_green;
@@ -139,13 +145,16 @@ h1 {
 .color-picker {
   .settings-header {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
+
     h3 {
       color: $white;
     }
   }
+
   .section {
     border: 1px solid $color_caribbean_green;
   }
+
   a.handle {
     border: 1px solid $color_caribbean_green;
     background: $color_caribbean_green;
@@ -282,6 +291,7 @@ h1 {
 
 .btn-custom.theme-color {
   background-image: linear-gradient(to right, $color_caribbean_green, $color_spring_green, $color_caribbean_green, $color_caribbean_green);
+
   &:hover {
     background-position: 100% 0;
   }
@@ -291,14 +301,17 @@ h1 {
   a {
     &.active {
       border: 1px solid $color_caribbean_green;
+
       span {
         background: $color_caribbean_green !important;
       }
     }
+
     span {
       background: $color_caribbean_green !important;
     }
   }
+
   &:hover a.active span {
     background: $color_caribbean_green !important;
   }
@@ -309,10 +322,12 @@ h1 {
     span {
       background: $color_caribbean_green !important;
     }
+
     &.active span {
       background: $color_caribbean_green !important;
     }
   }
+
   &:hover a.active span {
     background: $color_caribbean_green !important;
   }
@@ -343,6 +358,7 @@ h1 {
   span {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
   }
+
   &.active span {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
   }
@@ -352,6 +368,7 @@ h1 {
   span {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
   }
+
   &.active span {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
   }
@@ -361,6 +378,7 @@ h1 {
   span {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
   }
+
   &.active span {
     background: linear-gradient(to bottom, $color_spring_green 0, $color_caribbean_green 99%) !important;
   }
@@ -373,6 +391,7 @@ h1 {
 .blog-pagin a.page-link {
   color: $color_caribbean_green;
   border: 1px solid $gray;
+
   &:hover {
     background-color: $color_caribbean_green;
   }
@@ -415,6 +434,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
   .home-two,
   .home-three {
     background-color: $color_caribbean_green;
@@ -428,6 +448,7 @@ h1 {
         color: $color_caribbean_green;
       }
     }
+
     &.dropdown {
       .dropdown-menu {
         .nav-item {
@@ -435,6 +456,7 @@ h1 {
             &.active {
               color: $color_caribbean_green !important;
             }
+
             &:hover {
               color: $color_caribbean_green !important;
               transition: all 0.3s ease;
@@ -444,6 +466,7 @@ h1 {
       }
     }
   }
+
   /*Dropdown css*/
   &.darkHeader {
     .dropdown-menu .nav-item {
@@ -454,6 +477,7 @@ h1 {
       }
     }
   }
+
   /*dropdown css end*/
   .navbar-nav {
     .active {

@@ -16,7 +16,7 @@ export class ContactUsComponent implements OnInit {
   ngOnInit() {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
-      phone: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
+      // phone: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
       email: ['', [Validators.required, Validators.email]],
       message: ['', Validators.required]
     });
@@ -24,9 +24,9 @@ export class ContactUsComponent implements OnInit {
   get name() {
     return this.contactForm.get('name') as FormControl;
   }
-  get phone() {
-    return this.contactForm.get('phone') as FormControl;
-  }
+  // get phone() {
+  //   return this.contactForm.get('phone') as FormControl;
+  // }
   get email() {
     return this.contactForm.get('email') as FormControl;
   }

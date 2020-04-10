@@ -15,6 +15,7 @@ import { FaqComponent } from './faq/faq.component';
 import { DownloadComponent } from './download/download.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { EmailTemplateComponent } from './email-template/email-template.component';
+import { ManifestoComponent } from './manifesto/manifesto.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { EmailTemplateComponent } from './email-template/email-template.componen
     FaqComponent,
     DownloadComponent,
     ComingsoonComponent,
-    EmailTemplateComponent
+    EmailTemplateComponent,
+    ManifestoComponent
    ]
 })
 export class PagesModule { }

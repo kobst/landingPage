@@ -21,6 +21,12 @@ import { PriceComponent } from './price/price.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { IntroPlazmComponent } from './intro-plazm/intro-plazm.component';
+import { AboutPlazmComponent } from './about-plazm/about-plazm.component';
+import { ForBusinessComponent } from './for-business/for-business.component';
+import { ForMobileComponent } from './for-mobile/for-mobile.component';
+import { ForCuratorComponent } from './for-curator/for-curator.component';
+import { BlogBannerPlazmComponent } from './blog-banner-plazm/blog-banner-plazm.component';
 
 @NgModule({
   imports: [
@@ -47,7 +53,13 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     PriceComponent,
     TestimonialComponent,
     ContactUsComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    IntroPlazmComponent,
+    AboutPlazmComponent,
+    ForBusinessComponent,
+    ForMobileComponent,
+    ForCuratorComponent,
+    BlogBannerPlazmComponent
   ],
   providers: []
 })

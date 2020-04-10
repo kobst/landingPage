@@ -14,7 +14,7 @@ const routes: Routes = [
     children: [
       {
         path: 'list',
-        component: BlogListComponent,
+        component: BlogLeftsideComponent,
         data: {
           title: 'Blog List | Tovo Landing Page'
         }
@@ -28,7 +28,7 @@ const routes: Routes = [
       },
       {
         path: 'left-sidebar',
-        component: BlogLeftsideComponent,
+        component: BlogListComponent,
         data: {
           title: 'Left Sidebar | Tovo Landing Page'
         }

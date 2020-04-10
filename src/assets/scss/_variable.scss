@@ -11,7 +11,7 @@ $color_bon_jour: rgba(224, 224, 224, 1);
 $color_twilight_blue: #f3fffd;
 $color_tundora: #444444;
 $color_tapa: #777777;
-$color_black_haze: #f7f7f7;
+$color_black_haze: #0a2529;
 $color_mountain_mist: #999;
 $color_mine_shaft: #333;
 $color_alto: rgb(221, 221, 221);
@@ -44,7 +44,7 @@ $border_gray: #dddddd;
 
 
 //fonts
-$font_0: Poppins;
+$font_0: Andale-Mono;
 $font_1: sans-serif;
 
 //urls
@@ -63,6 +63,9 @@ $url_11: url(./images/price-bg.png);
 $url_12: url(./images/testimonial-bg.png);
 $url_13: url(./images/Testimonial.png);
 $url_14: url(./images/Contact.png);
+
+$url_hex: url(./images/hexSingle.png);
+$url_hexTrio: url(./images/hexTrio.png);
 
 %extend_1 {
   display: inline-block;
