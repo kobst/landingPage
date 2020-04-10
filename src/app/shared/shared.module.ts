@@ -4,8 +4,6 @@ import { RouterModule } from '@angular/router';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { HeaderPlazmComponent } from './header-plazm/header-plazm.component';
 
 // Services
@@ -18,8 +16,6 @@ import { FooterPlazmComponent } from './footer-plazm/footer-plazm.component';
 @NgModule({
   exports: [
     CommonModule,
-    HeaderComponent,
-    FooterComponent,
     LoaderComponent,
     HeaderPlazmComponent,
     FooterPlazmComponent
@@ -31,8 +27,6 @@ import { FooterPlazmComponent } from './footer-plazm/footer-plazm.component';
     NgbModule
   ],
   declarations: [
-    HeaderComponent,
-    FooterComponent,
     LoaderComponent,
     HeaderPlazmComponent,
     FooterPlazmComponent
