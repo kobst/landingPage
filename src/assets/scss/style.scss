@@ -1244,7 +1244,7 @@
       text-align: center;
     }
 
-    .forYouLeft {
+    .forMobile {
       width: 100vw;
       background-image: $url_hex;
       background-position: 90% 10%;
@@ -1255,7 +1255,18 @@
       align-items: center;
     }
 
-    .forYouRight {
+    .forCurator {
+      width: 100vw;
+      background-image: $url_hex;
+      background-position: 90% 10%;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      margin-top: 0;
+      position: relative;
+      align-items: center;
+    }
+
+    .forBusiness {
       width: 100vw;
       background-image: $url_hex;
       background-position: 0% 10%;
