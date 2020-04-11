@@ -22,7 +22,7 @@ const routes: Routes = [
     path: '',
     children: [
       {
-        path: 'main',
+        path: '',
         component: HomeOneComponent,
         data: {
           title: 'Introduction'
