@@ -35,22 +35,55 @@
             <a class="nav-link" href="#about" (click)="active('about')"
               [ngClass]="{'active show': activeClass == 'about' }" [pageScrollOffset]="80" pageScroll>about</a>
             <a class="nav-link" href="#forMobile" (click)="active('forMobile')"
-              [ngClass]="{'active show': activeClass == 'feature' }" [pageScrollOffset]="80" pageScroll>consumers</a>
+              [ngClass]="{'active show': activeClass == 'forMobile' }" [pageScrollOffset]="80" pageScroll>consumers</a>
             <a class="nav-link" href="#forBusiness" (click)="active('forBusiness')"
-              [ngClass]="{'active show': activeClass == 'feature' }" [pageScrollOffset]="80" pageScroll>businesses</a>
+              [ngClass]="{'active show': activeClass == 'forBusiness' }" [pageScrollOffset]="80"
+              pageScroll>businesses</a>
             <a class="nav-link" href="#forCurator" (click)="active('forCurator')"
-              [ngClass]="{'active show': activeClass == 'feature' }" [pageScrollOffset]="80" pageScroll>curators</a>
+              [ngClass]="{'active show': activeClass == 'forCurator' }" [pageScrollOffset]="80" pageScroll>curators</a>
             <a class="nav-link" href="#contact" (click)="active('contact')"
               [ngClass]="{'active show': activeClass == 'contact' }" [pageScrollOffset]="80" pageScroll>contact us</a>
           </div>
         </div>
 
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'/blog/list'" [routerLinkActive]="'active'"
-            [routerLinkActiveOptions]="{exact: true}">blog</a>
+          <a class="nav-link" [routerLink]="'/manifesto'" [routerLinkActive]="'active'"
+            [routerLinkActiveOptions]="{exact: true}">manifesto</a>
         </li>
 
-        <!-- <div ngbDropdown class="nav-item dropdown">
+        <!-- <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/blog/list'" [routerLinkActive]="'active'"
+            [routerLinkActiveOptions]="{exact: true}">blog</a>
+        </li> -->
+
+        <!-- 
+        <div ngbDropdown class="nav-item dropdown">
+          <button class="btn bg-transparent nav-link dropdown-toggle" id="dropdownMenuButton" ngbDropdownToggle>Other
+            page</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+            <a class="nav-link" [routerLink]="'/pages/sign-in'">sign in</a>
+            <a class="nav-link" [routerLink]="'/pages/sign-up'">sign up</a>
+            <a class="nav-link" [routerLink]="'/pages/forget-password'">Forget Password</a>
+            <a class="nav-link" [routerLink]="'/pages/thank-you'">Thank you</a>
+            <a class="nav-link" [routerLink]="'/pages/review'" [routerLinkActive]="'active'"
+              [routerLinkActiveOptions]="{exact: true}">Review</a>
+            <a class="nav-link" [routerLink]="'/pages/404'">404</a>
+            <a class="nav-link" [routerLink]="'/pages/faq'" [routerLinkActive]="'active'"
+              [routerLinkActiveOptions]="{exact: true}">FAQ</a>
+            <a class="nav-link" [routerLink]="'/pages/download'">Download</a>
+          </div>
+        </div> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Nav end-->
+
+
+
+
+
+<!-- <div ngbDropdown class="nav-item dropdown">
           <button class="btn bg-transparent nav-link dropdown-toggle" id="dropdownMenuButton" (click)="active('blog')"
             [ngClass]="{'active show': activeClass == 'blog' }" [pageScrollOffset]="80" pageScroll
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ngbDropdownToggle>Blog</button>
@@ -71,28 +104,7 @@
         </div> -->
 
 
-        <!-- <li class="nav-item">
+<!-- <li class="nav-item">
           <a class="nav-link" href="#contact" data-menuanchor="contact" (click)="active('contact')"
             [ngClass]="{'active show': activeClass == 'contact' }" [pageScrollOffset]="80" pageScroll>contact us</a>
         </li> -->
-        <div ngbDropdown class="nav-item dropdown">
-          <button class="btn bg-transparent nav-link dropdown-toggle" id="dropdownMenuButton" ngbDropdownToggle>Other
-            page</button>
-          <div ngbDropdownMenu aria-labelledby="dropdownMenuButton" class="dropdown-menu">
-            <a class="nav-link" [routerLink]="'/pages/sign-in'">sign in</a>
-            <a class="nav-link" [routerLink]="'/pages/sign-up'">sign up</a>
-            <a class="nav-link" [routerLink]="'/pages/forget-password'">Forget Password</a>
-            <a class="nav-link" [routerLink]="'/pages/thank-you'">Thank you</a>
-            <a class="nav-link" [routerLink]="'/pages/review'" [routerLinkActive]="'active'"
-              [routerLinkActiveOptions]="{exact: true}">Review</a>
-            <a class="nav-link" [routerLink]="'/pages/404'">404</a>
-            <a class="nav-link" [routerLink]="'/pages/faq'" [routerLinkActive]="'active'"
-              [routerLinkActiveOptions]="{exact: true}">FAQ</a>
-            <a class="nav-link" [routerLink]="'/pages/download'">Download</a>
-          </div>
-        </div>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Nav end-->

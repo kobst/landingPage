@@ -9,7 +9,7 @@ const routes: Routes = [
         path: '',
         children: [
             {
-                path: 'main',
+                path: '',
                 component: ManifestoHomeComponent,
                 data: {
                     title: 'Introduction'
